@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
 }
+
+
 
 
 nav {
@@ -41,8 +44,6 @@ main .top {
     height: 100vh;
     width: 100%;
     background-color: red;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
 }
 
 main .top img {
@@ -51,6 +52,13 @@ main .top img {
     left: 50%;
     height: 50%;
     transform: translate(-50%,-50%);
+}
+
+.scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 h3 {
