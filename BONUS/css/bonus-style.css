@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+nav {
+    height: 70px; 
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+ 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 3px;
+    padding: 10px 2px;
+    font-size: 8px;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50%;
+    list-style-type: none;
+    padding: 8px;
+}
+
+
+main .top {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+main .top img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h3 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+main .top h3, main .middle h3 {
+    color: yellow;
+}
+
+main .bottom h3 {
+    color: green;
+}
+
+main .middle {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+
+main .middle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main .bottom {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
+
+main .bottom img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%,-50%);
+}
+
