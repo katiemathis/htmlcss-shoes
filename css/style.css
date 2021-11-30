@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 
@@ -45,25 +46,25 @@ main .top img {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 40%;
+    height: 50%;
     transform: translate(-50%,-50%);
 }
 
-h1 {
+h3 {
     text-transform: uppercase;
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 50%;
-    height: 40%;
+    height: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
-main .top h1, main .middle h1 {
+main .top h3, main .middle h3 {
     color: yellow;
 }
 
-main .bottom h1 {
+main .bottom h3 {
     color: green;
 }
 
@@ -80,7 +81,7 @@ main .middle img {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 40%;
+    height: 50%;
     transform: translate(-50%,-50%);
 }
 
@@ -97,7 +98,7 @@ main .bottom img {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 40%;
+    height: 50%;
     transform: translate(-50%,-50%);
 }
 
